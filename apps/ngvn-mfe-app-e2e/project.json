@@ -1,0 +1,10 @@
+{
+  "name": "ngvn-mfe-app-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/ngvn-mfe-app-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["ngvn-mfe-app"],
+  "// targets": "to see all targets run: nx show project ngvn-mfe-app-e2e --web",
+  "targets": {}
+}
