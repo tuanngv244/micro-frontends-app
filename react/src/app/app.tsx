@@ -6,13 +6,14 @@ import ReactDOM, { Root } from 'react-dom/client';
 export function App() {
   return (
     <div>
-      <NxWelcome title="react" />
+      <NxWelcome title="react application" />
     </div>
   );
 }
 
 class ReactRootApp extends HTMLElement {
   root!: Root;
+
   connectedCallback() {
     this.root = ReactDOM.createRoot(this);
     this.root.render(<App />);

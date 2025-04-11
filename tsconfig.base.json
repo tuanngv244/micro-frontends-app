@@ -3,6 +3,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "sourceMap": true,
+    "jsx": "react-jsx",
     "declaration": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
@@ -11,6 +12,7 @@
     "target": "es2015",
     "module": "esnext",
     "lib": ["es2020", "dom"],
+    "types": ["dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",

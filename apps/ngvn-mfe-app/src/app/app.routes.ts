@@ -1,9 +1,6 @@
 import { Route } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
-import {
-  WebElementWrapperComponent,
-  WebElementWrapperOptions,
-} from '@ngvn-mfe-app/angular/web-element-wrapper';
+import { WebElementWrapperComponent } from '@ngvn-mfe-app/angular/web-element-wrapper';
 
 export const appRoutes: Route[] = [
   {
@@ -20,7 +17,7 @@ export const appRoutes: Route[] = [
     data: {
       loadRemoteBundle: () => import('react/Module'),
       selector: 'app-react-root',
-    } as WebElementWrapperOptions,
+    } as any,
   },
   {
     path: '',
