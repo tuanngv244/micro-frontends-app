@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ngvn-mfe-app/angular/web-element-wrapper": [
+        "angular/web-element-wrapper/src/index.ts"
+      ],
+      "home/Routes": ["home/src/app/remote-entry/entry.routes.ts"],
+      "react/Module": ["react/src/remote-entry.ts"],
+      "shell/Routes": ["shell/src/app/remote-entry/entry.routes.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
